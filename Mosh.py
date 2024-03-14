@@ -67,4 +67,26 @@ while i<5:
     i=i+1
 
 # Lists
+names=['abeer','arreb','ali','uneeb']
+print(names[0:3])
+print(names)
+print('abeer' in names)
+(names.insert(0 , -1))
+print(names)
 
+# for loop
+for item in names:
+    print(item)
+
+# range function
+numbers= range(10)
+for i in numbers:
+    print(i)
+# range(0,10,2)
+
+# Tuples
+# immutable objects
+
+number=(1,2,3,4,5,6)
+print(number.index(2))
+# we cannot mutate objects
